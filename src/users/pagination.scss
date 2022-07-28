@@ -1,0 +1,22 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__page {
+    font-size: 30px;
+  }
+}
+
+.btn {
+  height: 32px;
+  color: #fff;
+  border-radius: 8px;
+  width: 64px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  padding: 8px;
+  cursor: pointer;
+  background-color: green;
+}

@@ -1,0 +1,15 @@
+.user {
+  margin: 8px;
+  width: 150px;
+  display: flex;
+
+  &__name {
+    font-size: 30px;
+  }
+  
+  &__age {
+      font-weight: 700;
+      opacity: 0.5;
+      margin-left: auto;
+  }
+}
