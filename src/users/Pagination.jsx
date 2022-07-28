@@ -17,7 +17,7 @@ const Pagination = ({
  
 
   let isNextPageAvailable;
-  currentPage === endPage - 1
+  currentPage === endPage
     ? isNextPageAvailable = false
     : isNextPageAvailable = true;
 
