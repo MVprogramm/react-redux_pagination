@@ -11,7 +11,6 @@ const Pagination = ({ goPrev, goNext, currentPage, totalItems }) => {
     : (isPrevPageAvailable = true);
 
   let isNextPageAvailable;
-  console.log(currentPage, endPage);
   currentPage === endPage - 1
     ? (isNextPageAvailable = false)
     : (isNextPageAvailable = true);
